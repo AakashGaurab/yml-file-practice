@@ -1,0 +1,23 @@
+{
+  "name": "yml-file-practice",
+  "version": "1.0.0",
+  "description": "A yml File Practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AakashGaurab/yml-file-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AakashGaurab/yml-file-practice/issues"
+  },
+  "homepage": "https://github.com/AakashGaurab/yml-file-practice#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
