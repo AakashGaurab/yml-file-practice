@@ -42,14 +42,15 @@ name: git
 
 on:
    push:
+      branches:[main]
    jobs:
    build:
    runs_on:
    steps:
+        -uses: actions/checkout @v3
         -name: Print Hello World
          run:echo Hello world
-        -name: node --version
-         run: node --version
+        
 
 
 
