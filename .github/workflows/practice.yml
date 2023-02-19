@@ -35,21 +35,17 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
+name: Practising Yaml Codes
+on: null
+push: branches:[main,master]
+jobs:
+  build: null
+  runs-on: ubuntu-latest
+  steps:
+    - uses: actions/checkout@v3
+    - name: print node version
+    - runs runs node--version
 
-
-name: git 
-
-
-on:
-   push:
-      branches:[main]
-   jobs:
-   build:
-   runs_on: ubuntu-latest
-   steps:
-        -name: Print Hello World
-         run:echo Hello world
-        
 
 
 
