@@ -29,6 +29,9 @@ jobs:
       - name: print node version
         run: node -v
 
+      - name: running eslint
+        run: npx eslint
+
 
 
 
