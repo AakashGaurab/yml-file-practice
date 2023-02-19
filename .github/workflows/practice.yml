@@ -27,7 +27,11 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: print node version
-        run: node -v
+        run: run node -v
+
+      # Runs a set of commands using the runners shell
+      - name: running enslint
+        run: npx enslint
 
 
 
