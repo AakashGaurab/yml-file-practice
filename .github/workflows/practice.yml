@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: print node version
-        run: echo hello
+        run: node -v
 
 
 
