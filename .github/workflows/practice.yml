@@ -44,7 +44,7 @@ jobs:
   steps:
     - uses: actions/checkout@v3
     - name: print node version
-    - runs runs node--version
+    - runs  node--version
 
 
 
